@@ -49,6 +49,8 @@ const config: Config = {
         mainBcg: 'f3f3f3',
         dark: '#32323D',
         mainBlue: '#1879EA',
+        titleColor: '#cacaca',
+        backdrop: 'rgba(1, 10, 5, 0.75)',
       },
     },
   },

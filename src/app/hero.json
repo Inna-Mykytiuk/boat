@@ -1,0 +1,51 @@
+{
+  "title": "Boat",
+  "subTitle": "Welcome to boat adventure tours",
+  "logoText": "Boat",
+  "btnText": "contact",
+  "bntClose": "Close",
+  "links": [
+    {
+      "text": "Home",
+      "path": "home"
+    },
+    {
+      "text": "About Us",
+      "path": "about"
+    },
+    {
+      "text": "Services",
+      "path": "services"
+    },
+    {
+      "text": "Faq",
+      "path": "faq"
+    },
+    {
+      "text": "Community",
+      "path": "community"
+    }
+  ],
+  "socials": [
+    {
+      "name": "telegram",
+      "path": "https://t.me/",
+      "ariaLabel": "посилання на телеграм"
+    },
+    {
+      "name": "instagram",
+      "path": "https://www.instagram.com",
+      "ariaLabel": "посилання на інстаграм"
+    },
+    {
+      "name": "facebook",
+      "path": "https://www.facebook.com",
+      "ariaLabel": "посилання на фейсбук"
+    },
+    {
+      "name": "linkedin",
+      "path": "https://www.linkedin.com",
+      "ariaLabel": "посилання на linkedin"
+    }
+  ]
+}
