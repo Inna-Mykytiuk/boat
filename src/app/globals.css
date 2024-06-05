@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Contrail+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .section-title {
+    @apply text-center text-lightLarge font-normal tracking-[0.5px] md:text-large xl:text-extraLarge;
+  }
+
+  .section-subtitle {
+    @apply text-2xl font-normal leading-8 tracking-[0.5px] md:text-medium xl:text-large xl:leading-[1.2] xl:tracking-[0.2px];
+  }
+
+}
