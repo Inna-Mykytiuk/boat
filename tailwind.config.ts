@@ -5,6 +5,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/section/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     screens: {
@@ -38,6 +39,7 @@ const config: Config = {
       fontFamily: {
         comforta: ["Comfortaa", "sans-serif"],
         contrail: ["Contrail One", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       fontSize: {
         medium: ['28px', '1.28'],
@@ -54,6 +56,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('tailwind-scrollbar')],
+  plugins: [],
 };
 export default config;
