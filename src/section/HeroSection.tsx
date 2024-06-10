@@ -9,7 +9,7 @@ export default function HeroSection() {
     <div className="relative">
       <Navbar />
       <Image
-        src="/images/logo1.png"
+        src="/public/images/logo1.png"
         alt="boat"
         width={250}
         height={400}
