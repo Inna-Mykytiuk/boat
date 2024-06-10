@@ -33,9 +33,11 @@ const config: Config = {
         backdrop: `linear-gradient(rgba(41, 41, 41, 0.40),rgba(41, 41, 41, 0.40))`,
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        mainBg:"url(/images/boatMainBg.png)",
+        mainBgBoat:"url(/images/boatMainBg3.png)",
       },
       content: {
-        arrow: `url(/icons/arrow-right.svg)`,
+        arrow: `url(/images/boatMainBg.png)`,
       },
       fontFamily: {
         comforta: ["Comfortaa", "sans-serif"],

@@ -1,7 +1,5 @@
-// import Image from "next/image";
 import Link from "next/link";
 import data from "@/data/hero.json";
-// import logo from "../../../public/icons/logo.png";
 
 export default function Logo() {
   return (

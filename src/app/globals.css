@@ -20,6 +20,7 @@ html {
 
 body {
   font-family: Comfortaa, sans-serif;
+  /* background-color: #f3f3f3; */
   /* background-color: rgb(211, 211, 211);
   background-image: url('/images/logo.png');
   background-position: center;
@@ -79,6 +80,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, #c5c1c1 10%,
+      #aba7a729 40%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @layer utilities {
