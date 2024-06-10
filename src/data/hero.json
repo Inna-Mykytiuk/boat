@@ -4,6 +4,10 @@
   "logoText": "Boat",
   "btnText": "contact",
   "bntClose": "Close",
+  "img": {
+    "logo": "/images/logo1.png",
+    "water": "/images/water/whirlpoolMain1.png"
+  },
   "links": [
     {
       "text": "Home",

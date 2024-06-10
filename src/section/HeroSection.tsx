@@ -1,15 +1,14 @@
 import React from "react";
 import Navbar from "@/components/Header/Navbar";
 import Image from "next/image";
-
-interface Props {}
+import data from "@/data/hero.json";
 
 export default function HeroSection() {
   return (
     <div className="relative">
       <Navbar />
       <Image
-        src="/public/images/logo1.png"
+        src={data.img.logo}
         alt="boat"
         width={250}
         height={400}
@@ -18,7 +17,7 @@ export default function HeroSection() {
         aria-label="logo"
       />
       <Image
-        src="/images/water/whirlpoolMain1.png"
+        src={data.img.water}
         alt="boat"
         width={450}
         height={450}
