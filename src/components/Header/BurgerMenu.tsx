@@ -39,7 +39,7 @@ export default function BurgerMenu({ isOpen, handleToggle }: BurgerMenuProps) {
   return (
     <div
       className={classNames(
-        " fixed top-0 left-0 w-full h-full bg-mainBlue text-white transition-transform duration-300 ease-out z-50 py-[25px]",
+        " fixed top-0 left-0 w-full h-full backdrop-blur-sm bg-backdropBlue text-white transition-transform duration-300 ease-out z-50 py-[25px]",
         {
           "transform translate-x-0": isOpen,
           "transform -translate-x-full": !isOpen,
@@ -51,12 +51,12 @@ export default function BurgerMenu({ isOpen, handleToggle }: BurgerMenuProps) {
           type="button"
           aria-label="toggle menu button close"
           className="text-white text-normal cursor-pointer block
-        border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out p-1 ml-auto"
+        border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-backdropBlue hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out p-1 ml-auto"
           onClick={handleToggle}
         >
           <IoMdClose className="h-[35px] w-[35px]" />
         </button>
-        <ul className="flex flex-col items-start p-4 mt-16">
+        <ul className="flex flex-col items-center p-4 mt-16">
           {heroData.links.map((link, index) => (
             <li key={index} className="mb-4">
               <Link
@@ -64,7 +64,7 @@ export default function BurgerMenu({ isOpen, handleToggle }: BurgerMenuProps) {
                 smooth={true}
                 href="#"
                 ignoreCancelEvents={true}
-                className="font-normal text-base font-roboto transition-[color] duration-300 ease-out hover:text-mainBlue focus:text-mainBlue active:text-mainBlue"
+                className="font-normal text-xl font-roboto transition-[color] duration-300 ease-out hover:text-mainBlue focus:text-mainBlue active:text-mainBlue"
                 onClick={handleToggle}
               >
                 {link.text}

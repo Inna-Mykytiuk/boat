@@ -17,7 +17,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full py-9 sm:py-[25px] lg:py-6 absolute ">
+    <nav className="w-full py-9 sm:py-[38px] lg:py-6 absolute ">
       <div className="container flex items-center justify-between">
         <Logo />
         <ul className="hidden md:flex items-center gap-4">

@@ -54,6 +54,7 @@ const config: Config = {
         mainBlue: '#1879EA',
         titleColor: '#cacaca',
         backdrop: 'rgba(1, 10, 5, 0.75)',
+        backdropBlue: 'rgba(52, 98, 153, 0.85)',
       },
     },
   },
