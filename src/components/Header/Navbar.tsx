@@ -1,36 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
 import Logo from "./Logo";
-import classNames from "classnames";
+import BurgerMenu from "./BurgerMenu"; // Імпорт нового компонента
 import data from "@/data/hero.json";
 import { IoMdContact } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoMdClose } from "react-icons/io";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-
-    return () => {
-      document.body.style.overflow = "auto";
-    };
-  }, [isOpen]);
-
-  const handleOpen = () => {
-    setIsOpen(true);
-    document.body.style.overflow = "hidden";
-  };
-
-  const handleClose = () => {
-    setIsOpen(false);
-    document.body.style.overflow = "auto";
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -68,12 +51,14 @@ export default function Navbar() {
             aria-label="toggle menu button open"
             className="text-white text-normal cursor-pointer block
             border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out p-1 md:hidden"
-            onClick={handleOpen}
+            onClick={handleToggle}
           >
             <GiHamburgerMenu className="h-[35px] w-[35px] md:hidden" />
           </button>
         </div>
       </div>
+      <BurgerMenu isOpen={isOpen} handleToggle={handleToggle} />{" "}
+      {/* Використання нового компонента */}
     </nav>
   );
 }

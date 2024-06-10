@@ -7,7 +7,7 @@ export default function Logo() {
   return (
     <Link
       href="/"
-      className="text-dark text-3xl font-bold tracking-wide font-comforta cursor-pointer hover:scale-125 focus:scale-125 transition-all duration-300 ease-in-out outline-none focus:outline-none"
+      className="text-dark text-3xl font-bold tracking-wide font-comforta cursor-pointer hover:scale-125 focus:scale-125 transition-all duration-300 ease-in-out outline-none focus:outline-none "
     >
       {/* <Image
         src={logo}
