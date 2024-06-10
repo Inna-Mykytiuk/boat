@@ -13,6 +13,7 @@ const config: Config = {
       sm: '480px',
       md: '768px',
       xl: '1280px',
+      xxl: '1440px',
 
       smOnly: { max: '767.98px' },
       mdOnly: { min: '768px', max: '1279.98px' },

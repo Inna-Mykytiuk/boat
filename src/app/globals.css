@@ -20,12 +20,12 @@ html {
 
 body {
   font-family: Comfortaa, sans-serif;
-  background-color: rgb(211, 211, 211);
+  /* background-color: rgb(211, 211, 211);
   background-image: url('/images/logo.png');
   background-position: center;
   background-repeat: repeat;
   background-size: contain;
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply; */
 }
 
 picture,

@@ -58,7 +58,7 @@ export default function Navbar() {
             smooth={true}
             href="#"
             ignoreCancelEvents={true}
-            className="flex items-center py-0 px-0 md:py-2 text-white md:px-8 border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-black/15 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out"
+            className="flex items-center py-0 px-0 md:py-2 text-white md:px-8 border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out"
           >
             <IoMdContact className="h-[45px] w-[45px] md:h-[25px] md:w-[25px] group-hover:fill-mainBlue group-active:fill-mainBlue" />
             <p className="hidden md:flex">Contacts</p>
@@ -66,10 +66,11 @@ export default function Navbar() {
           <button
             type="button"
             aria-label="toggle menu button open"
-            className="text-mainWhite textNormal cursor-pointer block uppercase"
+            className="text-white text-normal cursor-pointer block
+            border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out p-1 md:hidden"
             onClick={handleOpen}
           >
-            <GiHamburgerMenu className="h-[45px] w-[45px] md:hidden" />
+            <GiHamburgerMenu className="h-[35px] w-[35px] md:hidden" />
           </button>
         </div>
       </div>
