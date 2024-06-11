@@ -10,6 +10,9 @@ const nextConfig = {
     });
     return config;
   },
+  images: {
+    domains: ['assets.codepen.io'], // Додайте ваш хост тут
+  },
 };
 
 export default nextConfig;

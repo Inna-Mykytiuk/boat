@@ -89,6 +89,17 @@ img {
   color: transparent;
 }
 
+.title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  background-image: url('/images/boatMainBg4.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
 @layer utilities {
   .section-title {
     @apply text-center text-lightLarge font-normal tracking-[0.5px] md:text-large xl:text-extraLarge;

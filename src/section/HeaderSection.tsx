@@ -14,7 +14,7 @@ export default function HeaderSection() {
         width={250}
         height={400}
         loading="lazy"
-        className="w-[250px] h-[300px] right-[190px] object-cover object-center absolute md:right-[300px] top-[80px] sm:top-0 z-[-10] xxl:right-[500px]"
+        className="w-[250px] h-[300px] right-[190px] object-cover object-center absolute md:right-[300px] top-[60px] sm:top-0 z-[-10] xxl:right-[500px]"
         aria-label="logo"
       />
       <Image
