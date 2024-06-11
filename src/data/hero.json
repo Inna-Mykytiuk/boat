@@ -5,8 +5,8 @@
   "btnText": "contact",
   "bntClose": "Close",
   "img": {
-    "logo": "/images/logo1.png",
-    "water": "/images/water/whirlpoolMain1.png"
+    "logo": "/images/logo1.webp",
+    "water": "/images/water/whirlpoolMain1.webp"
   },
   "links": [
     {

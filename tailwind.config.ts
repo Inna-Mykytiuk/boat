@@ -13,7 +13,7 @@ const config: Config = {
       sm: '480px',
       md: '768px',
       xl: '1280px',
-      xxl: '1440px',
+      xxl: '1480px',
 
       smOnly: { max: '767.98px' },
       mdOnly: { min: '768px', max: '1279.98px' },
@@ -33,8 +33,7 @@ const config: Config = {
         backdrop: `linear-gradient(rgba(41, 41, 41, 0.40),rgba(41, 41, 41, 0.40))`,
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        mainBg:"url(/images/boatMainBg.png)",
-        mainBgBoat:"url(/images/boatMainBg3.png)",
+        mainBgBoat:"url(/images/boatMainBg4.webp)",
       },
       content: {
         arrow: `url(/images/boatMainBg.png)`,
