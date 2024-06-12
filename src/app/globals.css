@@ -88,7 +88,7 @@ img {
   color: transparent;
 }
 
-.title:before {
+.title::before {
   content: '';
   display: block;
   position: absolute;
@@ -98,6 +98,7 @@ img {
   background-position: center;
   object-fit: cover;
 }
+
 
 @layer utilities {
   .section-title {

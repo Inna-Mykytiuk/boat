@@ -5,7 +5,7 @@ import { FaCompressArrowsAlt } from "react-icons/fa";
 
 export default function Card() {
   return (
-    <div className="col-12 text-center align-self-center py-5">
+    <div className="text-center align-self-center">
       <input
         className="pricing"
         type="checkbox"
@@ -14,11 +14,11 @@ export default function Card() {
         title="Toggle pricing"
       />
       <label htmlFor="pricing">
-        <span className="relative mb-[50px]  z-10 flex items-center justify-center py-0 px-0 md:py-2 text-white md:px-8 border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out cursor-pointer max-w-[170px] m-auto">
+        <span className="relative mb-[50px]  z-10 flex items-center justify-center py-0 px-0 md:py-2 text-white md:px-8 border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out cursor-pointer max-w-[170px]">
           Check here
         </span>
       </label>
-      <div className="card-3d-wrap mx-auto">
+      <div className="card-3d-wrap">
         <div className="card-3d-wrapper">
           <div className="card-front">
             <div className="pricing-wrap">

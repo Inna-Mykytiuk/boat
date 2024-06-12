@@ -33,10 +33,11 @@ const config: Config = {
         backdrop: `linear-gradient(rgba(41, 41, 41, 0.40),rgba(41, 41, 41, 0.40))`,
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        mainBgBoat:"url(/images/boatMainBg4.webp)",
+        mainBgBoat: "url(/images/boatMainBg4.webp)",
+        line: `url(/images/elements/roundedLine.png)`,
       },
       content: {
-        arrow: `url(/images/boatMainBg.png)`,
+        line: `url(/images/elements/roundedLine.png)`,
       },
       fontFamily: {
         comforta: ["Comfortaa", "sans-serif"],
@@ -53,6 +54,7 @@ const config: Config = {
         mainBcg: 'f3f3f3',
         dark: '#32323D',
         mainBlue: '#1879EA',
+        lightBlue: 'rgb(154 195 243)',
         titleColor: '#cacaca',
         backdrop: 'rgba(1, 10, 5, 0.75)',
         backdropBlue: 'rgba(52, 98, 153, 0.85)',

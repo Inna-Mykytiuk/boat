@@ -1,13 +1,14 @@
 import HeaderSection from "@/section/HeaderSection";
 import Hero from "@/components/Hero/Hero";
-import Card from "@/components/Card/Card";
+
+import Services from "@/components/Services/Services";
 
 export default function Home() {
   return (
     <>
       <HeaderSection />
       <Hero />
-      <Card />
+      <Services />
     </>
   );
 }
