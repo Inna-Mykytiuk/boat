@@ -1,8 +1,13 @@
-import React from "react";
+interface TitleProps {
+  children: React.ReactNode;
+  className?: string;
+}
 
-export default function Title({ children }: { children: React.ReactNode }) {
+export default function Title({ children, className = "" }: TitleProps) {
   return (
-    <h1 className="title relative gradient-text font-bold text-[100px] sm:text-[160px] md:text-[220px] xl:text-[250px] font-comforta text-center tracking-tighter leading-tight uppercase before:w-full  xl:before:h-[840px] md:before:h-[600px] before:top-[-40px] sm:before:top-0 xl:before:bg-cover  before:bg-cover before:h-[420px]">
+    <h1
+      className={`title relative gradient-text font-bold text-[70px] sm:text-[100px] md:text-[180px] xl:text-[250px] font-comforta text-center tracking-tighter leading-tight uppercase ${className}`}
+    >
       {children}
     </h1>
   );

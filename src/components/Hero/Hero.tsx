@@ -1,6 +1,5 @@
 import React from "react";
 import Title from "../Title/Title";
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -9,7 +8,10 @@ export default function Hero() {
         <h3 className="text-dark font-roboto font-bold text-base sm:text-xl md:text-2xl text-center uppercase tracking-tighter">
           Welcome&nbsp;&nbsp;to&nbsp;&nbsp;boat&nbsp;&nbsp;adventure&nbsp;&nbsp;tours
         </h3>
-        <Title>Boat</Title>
+
+        <h1 className="title relative gradient-text font-bold text-[100px] sm:text-[160px] md:text-[220px] xl:text-[250px] font-comforta text-center tracking-tighter leading-tight uppercase before:w-full  xl:before:h-[840px] md:before:h-[600px] before:top-[-40px] sm:before:top-0 xl:before:bg-cover  before:bg-cover before:h-[420px]">
+          Boat
+        </h1>
       </div>
     </section>
   );
