@@ -43,7 +43,7 @@
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
-  box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .07);
+  box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .5);
 }
 
 .card-back {
@@ -98,9 +98,9 @@
   animation: border-transform 6s linear infinite;
 }
 
-.card-back .pricing-wrap h4:before {
+/* .card-back .pricing-wrap h4:before {
   background: linear-gradient(217deg, #648946, #a3c984);
-}
+} */
 
 @keyframes border-transform {
 
@@ -241,6 +241,7 @@
   transform: translate3d(0, 0, 15px) perspective(100px);
 }
 
+
 .img-3 {
   position: absolute;
   display: block;
@@ -276,6 +277,19 @@
   transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
 }
 
+.img-8 {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -175px;
+  z-index: 1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  transform: translate3d(0, 0, 15px) perspective(100px);
+}
+
 .pricing:checked~.card-3d-wrap .card-3d-wrapper .img-6 {
   opacity: 0;
   transform: translate3d(0, 0, 25px) perspective(100px) scale(0.4);
@@ -286,10 +300,10 @@
 .img-4 {
   position: absolute;
   display: block;
-  left: -60px;
-  top: -60px;
+  /* left: -60px;
+  top: -60px; */
   z-index: 5;
-  width: calc(65% + 60px);
+  /* width: calc(65% + 60px); */
   transform: translate3d(0, 0, 45px) perspective(100px) scale(0.5);
   opacity: 0;
   pointer-events: none;
@@ -299,6 +313,10 @@
 .pricing:checked~.card-3d-wrap .card-3d-wrapper .img-4 {
   opacity: 1;
   pointer-events: auto;
+  top: 60px;
+  left: -90px;
+  top: 20px;
+  width: 240px;
   transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
   transition: transform 400ms 1200ms ease, opacity 300ms 1200ms ease;
 }
@@ -319,6 +337,7 @@
 .pricing:checked~.card-3d-wrap .card-3d-wrapper .img-5 {
   opacity: 1;
   pointer-events: auto;
+  width: 220px;
   transform: translate3d(0, 0, 35px) perspective(100px) scale(1) rotate(10deg);
   transition: transform 400ms 1300ms ease, opacity 300ms 1300ms ease;
 }
@@ -339,6 +358,9 @@
 .pricing:checked~.card-3d-wrap .card-3d-wrapper .img-7 {
   opacity: 1;
   pointer-events: auto;
+  width: 300px;
+  right: -80px;
+  bottom: -240px;
   transform: translate3d(0, 0, 35px) perspective(100px) scale(1);
   transition: transform 400ms 1300ms ease, opacity 300ms 1300ms ease;
 }

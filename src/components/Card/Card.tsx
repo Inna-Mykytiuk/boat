@@ -25,7 +25,7 @@ export default function Card() {
               <div className="pricing-wrap">
                 <h4 className="mb-5">Kayaking</h4>
                 <h2 className="mb-2">
-                  <sup>$</sup>39 / 4<sup>hrs</sup>
+                  <sup>$</sup>80 / 4<sup>hrs</sup>
                 </h2>
                 <p className="mb-4">per person</p>
 
@@ -65,15 +65,15 @@ export default function Card() {
             </div>
             <div className="card-back">
               <div className="pricing-wrap">
-                <h4 className="mb-5">Camping</h4>
+                <h4 className="mb-5">Yachting</h4>
                 <h2 className="mb-2">
-                  <sup>$</sup>29 / 8<sup>hrs</sup>
+                  <sup>$</sup>290 / 8<sup>hrs</sup>
                 </h2>
                 <p className="mb-4">per person</p>
 
-                <div className="img-wrap img-2">
+                <div className="img-wrap img-8">
                   <Image
-                    src="https://assets.codepen.io/1462889/grass.png"
+                    src="/images/water/sea2.webp"
                     alt="grass"
                     width={345}
                     height={140}
@@ -81,26 +81,26 @@ export default function Card() {
                 </div>
                 <div className="img-wrap img-4">
                   <Image
-                    src="https://assets.codepen.io/1462889/camp.png"
+                    src="/images/boat/yacht.png"
                     alt="camp"
-                    width={294}
+                    width={350}
                     height={303}
                   />
                 </div>
                 <div className="img-wrap img-5">
                   <Image
-                    src="https://assets.codepen.io/1462889/Ivy.png"
+                    src="/images/water/whirlpoolMain1.webp"
                     alt="Ivy"
-                    width={337}
-                    height={373}
+                    width={266}
+                    height={277}
                   />
                 </div>
                 <div className="img-wrap img-7">
                   <Image
-                    src="https://assets.codepen.io/1462889/IvyRock.png"
-                    alt="IvyRock"
-                    width={119}
-                    height={108}
+                    src="https://assets.codepen.io/1462889/water.png"
+                    alt="water"
+                    width={224}
+                    height={222}
                   />
                 </div>
               </div>
