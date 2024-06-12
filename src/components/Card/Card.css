@@ -8,13 +8,12 @@
 
 .card-3d-wrap {
   position: relative;
-  width: 340px;
+  width: 300px;
   max-width: calc(100% - 20px);
   height: 460px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   perspective: 1000px;
-  margin-top: 90px;
 }
 
 .card-3d-wrapper {
@@ -74,12 +73,12 @@
   width: 100%;
   display: block;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Contrail', sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   font-size: 22px;
   line-height: 1.7;
-  color: #102770;
+  color: #32323D;
   transform: translate3d(0, 0, 35px) perspective(100px);
 }
 
@@ -98,9 +97,6 @@
   animation: border-transform 6s linear infinite;
 }
 
-/* .card-back .pricing-wrap h4:before {
-  background: linear-gradient(217deg, #648946, #a3c984);
-} */
 
 @keyframes border-transform {
 
@@ -139,12 +135,12 @@
   width: 100%;
   display: block;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Contrail', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 36px;
   line-height: 1.1;
-  color: #102770;
+  color: #32323D;
   transform: translate3d(0, 0, 30px) perspective(100px);
 }
 
@@ -157,48 +153,28 @@
   width: 100%;
   display: block;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Contrail', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 1px;
-  color: #102770;
+  color: #32323D;
   transform: translate3d(0, 0, 30px) perspective(100px);
 }
 
 .card-back h2,
 .card-back p,
 .card-back h4 {
-  color: #0c1c00;
+  color: #32323D;
 }
 
-.link {
-  position: relative;
-  padding: 10px 20px;
-  border-radius: 4px;
-  display: inline-block;
-  text-align: center;
-  color: #fff;
-  background-color: #102770;
-  transition: all 200ms linear;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  transform: translate3d(0, 0, 30px) perspective(100px);
-}
-
-.link:hover {
-  color: #102770;
-  background-color: #fff;
-}
 
 .card-back .link {
-  background-color: #0c1c00;
+  background-color: #32323D;
 }
 
 .card-back .link:hover {
-  color: #0c1c00;
+  color: #32323D;
   background-color: #fff;
 }
 
@@ -211,11 +187,11 @@
 .img-1 {
   position: absolute;
   display: block;
-  left: -160px;
-  top: -50px;
+  left: -100px;
+  top: 20px;
   z-index: 5;
   width: calc(80% + 160px);
-  transform: translate3d(0, 0, 45px) perspective(100px);
+  transform: translate3d(0, 0, 65px) perspective(100px);
   opacity: 1;
   pointer-events: auto;
   transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
@@ -243,12 +219,12 @@
 
 
 .img-3 {
+  width: 250px;
   position: absolute;
   display: block;
-  right: -20px;
+  right: -90px;
   top: -40px;
   z-index: 5;
-  width: calc(60% + 20px);
   transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
   opacity: 1;
   pointer-events: auto;
@@ -257,13 +233,14 @@
 
 .pricing:checked~.card-3d-wrap .card-3d-wrapper .img-3 {
   opacity: 0;
+
   transform: translate3d(-50px, 5px, 55px) perspective(100px) scale(0.4);
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
 }
 
 .img-6 {
-  width: 280px;
+  width: 260px;
   position: absolute;
   display: block;
   right: 4px;
@@ -271,8 +248,9 @@
   z-index: 5;
   /* width: calc(20% + 30px); */
   opacity: 1;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   pointer-events: auto;
-  border-radius: 0 0 24px 0;
   transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
   transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
 }
@@ -285,6 +263,8 @@
   z-index: 1;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   overflow: hidden;
   width: 100%;
   transform: translate3d(0, 0, 15px) perspective(100px);
@@ -300,10 +280,7 @@
 .img-4 {
   position: absolute;
   display: block;
-  /* left: -60px;
-  top: -60px; */
   z-index: 5;
-  /* width: calc(65% + 60px); */
   transform: translate3d(0, 0, 45px) perspective(100px) scale(0.5);
   opacity: 0;
   pointer-events: none;
@@ -345,8 +322,8 @@
 .img-7 {
   position: absolute;
   display: block;
-  right: -30px;
-  bottom: -140px;
+  /* right: -30px;
+  bottom: -140px; */
   z-index: 6;
   width: calc(25% + 30px);
   transform: translate3d(0, 0, 35px) perspective(100px) scale(0.5);
@@ -358,24 +335,9 @@
 .pricing:checked~.card-3d-wrap .card-3d-wrapper .img-7 {
   opacity: 1;
   pointer-events: auto;
-  width: 300px;
-  right: -80px;
+  width: 260px;
+  right: -100px;
   bottom: -240px;
   transform: translate3d(0, 0, 35px) perspective(100px) scale(1);
   transition: transform 400ms 1300ms ease, opacity 300ms 1300ms ease;
-}
-
-.logo {
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  display: block;
-  z-index: 100;
-  transition: all 250ms linear;
-}
-
-.logo img {
-  height: 26px;
-  width: auto;
-  display: block;
 }
