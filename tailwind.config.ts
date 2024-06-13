@@ -35,6 +35,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         mainBgBoat: "url(/images/boatMainBg4.webp)",
         line: `url(/images/elements/roundedLine.png)`,
+        wave: `url(/images/elements/wave.webp)`,
       },
       content: {
         line: `url(/images/elements/roundedLine.png)`,
@@ -51,11 +52,12 @@ const config: Config = {
         extraLarge: ['56px', '1.14'],
       },
       colors: {
-        mainBcg: 'f3f3f3',
+        mainBcg: '#f3f3f3',
         dark: '#32323D',
         mainBlue: '#1879EA',
         lightBlue: 'rgb(154 195 243)',
         titleColor: '#cacaca',
+        grey: '#5c5c5c',
         backdrop: 'rgba(1, 10, 5, 0.75)',
         backdropBlue: 'rgba(52, 98, 153, 0.85)',
       },
