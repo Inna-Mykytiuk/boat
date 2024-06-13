@@ -5,7 +5,10 @@ import Title from "../Title/Title";
 
 export default function Speed() {
   return (
-    <section id="speed" className="mt-[20px] md:mt-[80px] mb-[50px]">
+    <section
+      id="speed"
+      className="mt-[20px] md:mt-[80px] xxl:mt-[40px] mb-[50px]"
+    >
       <div className="container relative">
         <Title>Speedy</Title>
         <div className=" absolute top-[80px] md:top-[120px] xl:top-[140px] xl:left-[100px] xxl:left-[250px] flex flex-col md:flex-row justify-center items-center gap-[20px] md:gap-[40px] xl:gap-[80px]">
@@ -32,7 +35,6 @@ export default function Speed() {
               alt="travel logo"
               width={350}
               height={303}
-              aria-label="logo"
               className="object-cover object-center"
             />
             <p
