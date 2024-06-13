@@ -36,6 +36,7 @@ const config: Config = {
         mainBgBoat: "url(/images/boatMainBg4.webp)",
         line: `url(/images/elements/roundedLine.png)`,
         wave: `url(/images/elements/wave.webp)`,
+        lines: `url(/images/elements/lines1.png)`,
       },
       content: {
         line: `url(/images/elements/roundedLine.png)`,
