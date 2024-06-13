@@ -14,20 +14,16 @@
       "path": "home"
     },
     {
-      "text": "About Us",
-      "path": "about"
+      "text": "Speed",
+      "path": "speed"
     },
     {
-      "text": "Services",
-      "path": "services"
+      "text": "Safety",
+      "path": "safety"
     },
     {
-      "text": "Faq",
-      "path": "faq"
-    },
-    {
-      "text": "Community",
-      "path": "community"
+      "text": "Gallery",
+      "path": "gallery"
     }
   ],
   "socials": [

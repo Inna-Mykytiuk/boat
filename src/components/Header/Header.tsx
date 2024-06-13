@@ -4,7 +4,7 @@ import Navbar from "@/components/Header/Navbar";
 import Image from "next/image";
 import data from "@/data/hero.json";
 
-export default function HeaderSection() {
+export default function Header() {
   return (
     <div className="relative flex flex-col">
       <Navbar />

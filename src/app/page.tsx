@@ -1,14 +1,15 @@
-import HeaderSection from "@/section/HeaderSection";
+import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
-
-import Services from "@/components/Services/Services";
+import Speed from "@/components/Services/Speed";
+import Safety from "@/components/Services/Safety";
 
 export default function Home() {
   return (
     <>
-      <HeaderSection />
+      <Header />
       <Hero />
-      <Services />
+      <Speed />
+      <Safety />
     </>
   );
 }
