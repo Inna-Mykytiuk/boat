@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../Title/Title";
+import Slider from "../Slider/Slider";
 
 export default function Gallery() {
   return (
@@ -26,6 +27,7 @@ export default function Gallery() {
             memories that will last a lifetime.
           </p>
         </div>
+        <Slider />
       </div>
     </section>
   );
