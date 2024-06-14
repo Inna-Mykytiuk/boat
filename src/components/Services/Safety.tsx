@@ -9,7 +9,7 @@ import Title from "../Title/Title";
 const Safety = () => {
   return (
     <section
-      id="speed"
+      id="safety"
       className="relative bg-mainBcg mt-[20px] md:mt-[80px] mb-[50px] pt-[30px] pb-[50px] 
       before:absolute before:bg-wave before:bottom-0 before:left-0 before:h-[420px] before:w-[650px] before:bg-cover
       
@@ -25,7 +25,7 @@ const Safety = () => {
           before:bg-lightBlue before:rounded-full
           "
           >
-            Your Premier destination for hight-speed fun
+            Your safety is our top priority
           </h3>
           <Image
             src="/images/boat/motorBoats.png"

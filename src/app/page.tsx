@@ -2,6 +2,7 @@ import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Speed from "@/components/Services/Speed";
 import Safety from "@/components/Services/Safety";
+import Gallery from "@/components/Services/Gallery";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Speed />
       <Safety />
+      <Gallery />
     </>
   );
 }
