@@ -10,7 +10,9 @@ export default function Speed() {
       className="mt-[20px] md:mt-[80px] xxl:mt-[40px] mb-[50px]"
     >
       <div className="container relative">
-        <Title>Speedy</Title>
+        <Title className="sm:text-[100px] md:text-[180px] xl:text-[250px]">
+          Speedy
+        </Title>
         <div className=" absolute top-[80px] md:top-[120px] xl:top-[140px] xl:left-[100px] xxl:left-[250px] flex flex-col md:flex-row justify-center items-center gap-[20px] md:gap-[40px] xl:gap-[80px]">
           <h3
             className="relative text-dark font-contrail text-xl xl:text-3xl uppercase max-w-[280px] md:max-w-[350px] before:hidden text-center

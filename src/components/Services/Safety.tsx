@@ -10,14 +10,16 @@ const Safety = () => {
   return (
     <section
       id="safety"
-      className="relative bg-mainBcg mt-[20px] md:mt-[80px] mb-[50px] pt-[30px] pb-[50px] 
+      className="relative bg-mainBcg mt-[20px] md:mt-[80px] mb-[50px] pt-[50px] pb-[50px] 
       before:absolute before:bg-wave before:bottom-0 before:left-0 before:h-[420px] before:w-[650px] before:bg-cover
       
       after:hidden md:after:block after:absolute after:bg-lines after:top-0 after:right-[-80px] after:h-full after:w-[650px] after:bg-cover after:z-[1]
       "
     >
       <div className="container relative">
-        <Title>Safety</Title>
+        <Title className="sm:text-[100px] md:text-[180px] xl:text-[250px]">
+          Safety
+        </Title>
         <div className=" absolute top-[80px] z-10 md:top-[120px] xl:top-[140px] md:left-[100px] xxl:left-[150px] flex flex-col md:flex-row justify-center gap-0 xl:gap-[40px] items-center md:items-start">
           <h3
             className="relative text-dark font-contrail text-xl xl:text-3xl uppercase max-w-[280px] md:max-w-[350px] before:hidden text-center top-0 md:top-[10px] xl:top-[60px]
@@ -25,7 +27,7 @@ const Safety = () => {
           before:bg-lightBlue before:rounded-full
           "
           >
-            Your safety is our top priority
+            Your Safety is our priority
           </h3>
           <Image
             src="/images/boat/motorBoats.png"

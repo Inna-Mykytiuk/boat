@@ -4,12 +4,11 @@ import Slider from "../Slider/Slider";
 
 export default function Gallery() {
   return (
-    <section
-      id="gallery"
-      className="mt-[20px] md:mt-[80px] xxl:mt-[40px] mb-[350px]"
-    >
+    <section id="gallery" className="mt-[20px] md:mt-[40px] mb-[50px]">
       <div className="container relative">
-        <Title className="sm:text-[80px] md:text-[150px]">Gallery</Title>
+        <Title className="sm:text-[80px] md:text-[150px] xl:text-[250px]">
+          Gallery
+        </Title>
         <div className="absolute top-[80px] md:top-[120px] xl:top-[140px] xl:left-[150px] xxl:left-[250px] flex flex-col md:flex-row justify-center items-center gap-[20px] md:gap-[40px] xl:gap-[80px]">
           <h3
             className="relative text-dark font-contrail text-xl xl:text-3xl uppercase max-w-[280px] md:max-w-[350px] before:hidden text-center

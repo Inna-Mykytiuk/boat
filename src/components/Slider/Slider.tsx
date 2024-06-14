@@ -3,9 +3,9 @@
 import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import { Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
-// import "swiper/css/pagination";
+import "swiper/css/pagination";
 
 export default function Slider() {
   return (
@@ -13,9 +13,9 @@ export default function Slider() {
       slidesPerView={1}
       spaceBetween={10}
       loop={true}
-      // pagination={{
-      //   clickable: true,
-      // }}
+      pagination={{
+        clickable: true,
+      }}
       grabCursor={true}
       breakpoints={{
         480: {
@@ -31,17 +31,17 @@ export default function Slider() {
           spaceBetween: 50,
         },
       }}
-      // modules={[Pagination]}
-      className="mySwiper mt-[50px]"
+      modules={[Pagination]}
+      className="mySwiper mt-[280px] sm:mt-[220px] md:mt-[140px] xl:mt-[30px]"
     >
-      <SwiperSlide className="w-[200px] h-[400px] rounded-3xl overflow-hidden shadow-card">
+      <SwiperSlide className="w-full h-[200px] md:w-[200px] md:h-[400px] rounded-3xl overflow-hidden shadow-card">
         <Image
           src="/images/gallery/galleryImg1.jpg"
           alt="boat"
           width={200}
           height={400}
           loading="lazy"
-          className="w-[200px] h-[400px] object-cover object-center "
+          className="w-full object-cover object-center "
         />
       </SwiperSlide>
       <SwiperSlide className="w-[200px] h-[400px] rounded-3xl overflow-hidden shadow-card">
