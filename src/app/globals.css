@@ -103,6 +103,14 @@ img {
 .swiper {
   width: 100%;
   height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px !important;
+}
+
+.swiper-wrapper {
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .swiper-slide {
@@ -117,10 +125,16 @@ img {
 }
 
 .swiper-slide img {
+  width: 200px;
+  height: 400px;
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.shadow-card {
+  box-shadow: 0 4px 15px 0 rgba(16, 39, 112, 0.4);
 }
 
 
