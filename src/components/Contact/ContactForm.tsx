@@ -38,9 +38,12 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-white p-8 shadow-lg text-center w-full">
-      <form onSubmit={handleSubmit}>
-        <div className="mb-4">
+    <>
+      <form
+        onSubmit={handleSubmit}
+        className="p-4 md:p-8 xl:p-12 shadow-lg text-center w-full rounded-[10px]  bg-black/10"
+      >
+        <div className="mb-6 flex flex-col md:flex-row md:gap-4 gap-6">
           <input
             type="text"
             name="name"
@@ -48,10 +51,8 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Name"
             required
-            className="w-full p-2 border border-gray-300 rounded"
+            className="rounded-xl w-full p-4 border border-gray-300 text-dark placeholder:text-comforta placeholder:text-dark"
           />
-        </div>
-        <div className="mb-4">
           <input
             type="email"
             name="email"
@@ -59,9 +60,10 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Email"
             required
-            className="w-full p-2 border border-gray-300 rounded"
+            className="rounded-xl w-full p-4 border border-gray-300 text-dark placeholder:text-comforta placeholder:text-dark"
           />
         </div>
+
         <div className="mb-4">
           <textarea
             name="description"
@@ -69,19 +71,21 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Description"
             required
-            className="w-full p-2 border border-gray-300 rounded"
+            className="rounded-xl w-full p-4 border border-gray-300 min-h-[180px] text-dark placeholder:text-comforta placeholder:text-dark"
           ></textarea>
         </div>
         <button
           type="submit"
-          className="w-full bg-black text-white py-2 rounded hover:bg-gray-800"
+          className="w-full bg-black text-white py-4 rounded-lg hover:bg-gray-800"
         >
           SUBMIT
         </button>
       </form>
       {successMessage && (
-        <div className="mt-4 text-green-600 font-bold">{successMessage}</div>
+        <div className="mt-4 text-mainBlue text-center font-bold">
+          {successMessage}
+        </div>
       )}
-    </div>
+    </>
   );
 }
