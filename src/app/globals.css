@@ -88,6 +88,12 @@ img {
   color: transparent;
 }
 
+.gradient-contact {
+  background: linear-gradient(to bottom, #ffffff 10%, #ffffff80 40%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .title::before {
   content: '';
   display: block;

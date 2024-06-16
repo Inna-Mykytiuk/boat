@@ -3,6 +3,7 @@ import Hero from "@/components/Hero/Hero";
 import Speed from "@/components/Services/Speed";
 import Safety from "@/components/Services/Safety";
 import Gallery from "@/components/Services/Gallery";
+import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Speed />
       <Safety />
       <Gallery />
+      <Contact />
     </>
   );
 }

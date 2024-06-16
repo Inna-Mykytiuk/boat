@@ -34,6 +34,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         mainBgBoat: "url(/images/boatMainBg4.webp)",
+        contactBg: "url(/images/kayaks4.png)",
         line: `url(/images/elements/roundedLine.png)`,
         wave: `url(/images/elements/wave.webp)`,
         lines: `url(/images/elements/lines1.png)`,
