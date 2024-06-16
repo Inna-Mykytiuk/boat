@@ -5,14 +5,14 @@ import { useState, ChangeEvent, FormEvent } from "react";
 interface FormData {
   name: string;
   email: string;
-  description: string;
+  message: string;
 }
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
-    description: "",
+    message: "",
   });
 
   const [successMessage, setSuccessMessage] = useState<string>("");
@@ -33,7 +33,7 @@ export default function ContactForm() {
     setFormData({
       name: "",
       email: "",
-      description: "",
+      message: "",
     });
   };
 
@@ -66,10 +66,10 @@ export default function ContactForm() {
 
         <div className="mb-4">
           <textarea
-            name="description"
-            value={formData.description}
+            name="message"
+            value={formData.message}
             onChange={handleChange}
-            placeholder="Description"
+            placeholder="Message"
             required
             className="rounded-xl w-full p-4 border border-gray-300 min-h-[180px] text-dark placeholder:text-comforta placeholder:text-dark"
           ></textarea>

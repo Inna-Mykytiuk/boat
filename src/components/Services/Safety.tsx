@@ -10,7 +10,7 @@ const Safety = () => {
   return (
     <section
       id="safety"
-      className="relative bg-mainBcg mt-[20px] md:mt-[80px] mb-[50px] pt-[50px] pb-[50px] 
+      className="relative bg-mainBcg mt-[20px] md:mt-[80px] mb-[50px] pt-[50px] pb-[50px] md:pb-[100px] xl:pb-[150px]
       before:absolute before:bg-wave before:bottom-0 before:left-0 before:h-[420px] before:w-[650px] before:bg-cover
       
       after:hidden md:after:block after:absolute after:bg-lines after:top-0 after:right-[-80px] after:h-full after:w-[650px] after:bg-cover after:z-[1]

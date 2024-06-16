@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contacts"
-      className="bg-mainBcg z-[1] relative mt-[20px] md:mt-[40px] mb-[50px] pt-[50px] pb-[150px]
+      className="bg-mainBcg z-[1] relative mt-[20px] md:mt-[40px] pt-[50px] pb-[50px] md:pb-[100px] xl:pb-[150px]
       before:hidden md:before:block before:absolute before:bg-lines before:top-0 before:left-[-80px] before:h-full before:w-[650px] before:bg-cover before:z-[-1] before:opacity-50
 
       after:hidden md:after:block after:absolute after:bg-linesKayak after:top-0 after:right-[-80px] after:h-full after:w-[650px] after:bg-cover after:z-[-1] after:opacity-50"
