@@ -10,10 +10,6 @@
   },
   "links": [
     {
-      "text": "Home",
-      "path": "home"
-    },
-    {
       "text": "Speed",
       "path": "speed"
     },

@@ -37,7 +37,7 @@ export default function Contact() {
               alt="travel logo"
               width={350}
               height={303}
-              className="absolute bottom-[-120px] md:bottom-[-75px] right-[-200px] md:right-[-240px] xl:right-[130px] object-cover object-center w-[400px] h-[750px] z-[-1] xl:z-[1]"
+              className="absolute bottom-[-50px] md:bottom-[-75px] right-[-200px] md:right-[-240px] xl:right-[130px] object-cover object-center w-[400px] h-[750px] z-[-1] xl:z-[1]"
             />
           </div>
         </div>

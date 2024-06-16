@@ -4,6 +4,7 @@ import Speed from "@/components/Services/Speed";
 import Safety from "@/components/Services/Safety";
 import Gallery from "@/components/Services/Gallery";
 import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Safety />
       <Gallery />
       <Contact />
+      <Footer />
     </>
   );
 }
