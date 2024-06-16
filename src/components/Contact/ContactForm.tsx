@@ -76,7 +76,7 @@ export default function ContactForm() {
         </div>
         <button
           type="submit"
-          className="w-full bg-black text-white py-4 rounded-lg hover:bg-gray-800"
+          className="w-full bg-dark text-white py-4 rounded-lg hover:bg-gray-800 text-comforta "
         >
           SUBMIT
         </button>

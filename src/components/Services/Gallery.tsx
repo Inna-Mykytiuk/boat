@@ -20,10 +20,10 @@ export default function Gallery() {
           </h3>
           <p className="text-dark font-normal font-comforta text-base md:max-w-[400px] xl:max-w-[600px] mdOnly:mr-[30px]">
             Get a simple of the exitement thqt awaits you with our gallery of
-            stunning photos and videos from scenic vistas to action-packed
-            moments on the water, our gallery captures the essence of the speed
-            boat experience browse through our collection and get ready to make
-            memories that will last a lifetime.
+            stunning photos from scenic vistas to action-packed moments on the
+            water, our gallery captures the essence of the speed boat experience
+            browse through our collection and get ready to make memories that
+            will last a lifetime.
           </p>
         </div>
         <Slider />

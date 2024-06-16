@@ -31,7 +31,7 @@ export default function Speed() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center md:gap-[50px] xl:gap-[200px] mdOnly:mt-[80px]">
-          <div className="relative">
+          <div className="relative z-[-1]">
             <Image
               src="/images/boat/yacht2.png"
               alt="travel logo"

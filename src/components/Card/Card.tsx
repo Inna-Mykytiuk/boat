@@ -14,7 +14,7 @@ export default function Card() {
         title="Toggle pricing"
       />
       <label htmlFor="pricing">
-        <span className="relative mb-[50px]  z-10 flex items-center justify-center py-0 px-0 md:py-2 text-white md:px-8 border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out cursor-pointer max-w-[170px]">
+        <span className="relative mt-[30px] md:mt-0 mb-[50px]  z-10 flex items-center justify-center py-2 text-white md:px-8 border-solid border-2 border-white hover:border-mainBlue rounded-full backdrop-blur-sm bg-mainBlue/30 hover:text-mainBlue focus:text-mainBlue active:text-mainBlue transition duration-300 ease-out cursor-pointer max-w-[170px]">
           Check here
         </span>
       </label>
