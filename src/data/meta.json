@@ -1,0 +1,35 @@
+{
+  "title": "Boat",
+  "description": "This project is a single-page landing site dedicated to promoting boat trips, yachting, and rental services. The site is designed to provide a visually appealing and informative experience for users interested in maritime adventures. Below is a detailed description of each section of the website.",
+  "keywords": "Boat, yacht, motor boat, rental-service",
+  "icons": [
+    {
+      "url": "/meta/favicon.ico"
+    },
+    {
+      "url": "/meta/favicon-16x16.png",
+      "rel": "icon",
+      "type": "image/png"
+    },
+    {
+      "url": "/meta/favicon-32x32.png",
+      "rel": "icon",
+      "type": "image/png"
+    }
+  ],
+  "manifest": "/meta/site.webmanifest",
+  "openGraph": {
+    "type": "website",
+    "title": "Boat",
+    "description": "This project is a single-page landing site dedicated to promoting boat trips, yachting, and rental services. The site is designed to provide a visually appealing and informative experience for users interested in maritime adventures. Below is a detailed description of each section of the website.",
+    "siteName": "Boat",
+    "images": [
+      {
+        "url": "/meta/ogp.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Yachting"
+      }
+    ]
+  }
+}
