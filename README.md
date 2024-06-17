@@ -72,4 +72,5 @@ To run the application locally, follow these steps:
 
 This landing page effectively combines visual appeal with functional design to create an engaging user experience for individuals interested in boat trips and yacht rentals. By leveraging modern web development technologies, the site ensures high performance, responsiveness, and an interactive user interface. The strategic use of animations, smooth scrolling, and an intuitive navigation system further enhances the overall experience, making it easy for users to explore the services offered and get in touch for more information.
 
-![preview](https://github.com/Inna-Mykytiuk/...../blob/main/public/assets/images/......jpg)
+![preview](https://github.com/Inna-Mykytiuk/boat/blob/main/public/presentation1.jpg)
+![preview](https://github.com/Inna-Mykytiuk/boat/blob/main/public/presentation2.jpg)
