@@ -39,6 +39,7 @@ const config: Config = {
         wave: `url(/images/elements/wave.webp)`,
         lines: `url(/images/elements/lines1.png)`,
         linesKayak: `url(/images/elements/lines6.png)`,
+        sea: `url(/images/water/whirpool4.png)`,
       },
       content: {
         line: `url(/images/elements/roundedLine.png)`,
