@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ContactForm from "./ContactForm";
+import ContactForm from "../ui/ContactForm";
 
 export default function Contact() {
   return (
@@ -60,8 +60,8 @@ export default function Contact() {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5 }}
             variants={{
-              hidden: { opacity: 0, scale: 0.9 },
-              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, x: 100 },
+              visible: { opacity: 1, x: 0 },
             }}
           >
             <Image
