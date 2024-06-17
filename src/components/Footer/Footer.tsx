@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex flex-col justify-center xl:justify-end sm:flex-row gap-[50px] ml-0 xl:ml-auto">
-            <div>
+            <div className="relative z-50">
               <h4 className="text-white text-center sm:text-start font-comforta text-base font-normal uppercase mb-[30px]">
                 Social networks
               </h4>
