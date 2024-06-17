@@ -117,6 +117,7 @@ img {
 .swiper-wrapper {
   padding-top: 30px;
   padding-bottom: 50px;
+  height: 420px !important;
 }
 
 .swiper-slide {

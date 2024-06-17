@@ -7,7 +7,7 @@ import { MdOutlineSpeed } from "react-icons/md";
 import { AiOutlineSafety } from "react-icons/ai";
 import { GiShipWheel } from "react-icons/gi";
 import { TbSailboat } from "react-icons/tb";
-import Title from "../Title/Title";
+import Title from "../ui/Title";
 
 const Safety = () => {
   return (

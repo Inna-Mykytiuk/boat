@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import Title from "../Title/Title";
+import Title from "../ui/Title";
 import Slider from "../Slider/Slider";
 
 export default function Gallery() {

@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Card from "@/components/Card/Card";
+import Card from "@/components/ui/Card/Card";
 import Image from "next/image";
-import Title from "../Title/Title";
+import Title from "../ui/Title";
 import { motion } from "framer-motion";
 
 export default function Speed() {
