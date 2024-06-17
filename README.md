@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boat
+
+This project is a single-page landing site dedicated to promoting boat trips, yachting, and rental services. The site is designed to provide a visually appealing and informative experience for users interested in maritime adventures. Below is a detailed description of each section of the website.
+
+## Table of content
+
+- [Routing](#routing)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+
+## Routing
+
+The app uses react-scroll for navigation. The available sections are:
+
+- `Home` - Welcome section includes:
+
+Navigation: A responsive navigation menu that adapts seamlessly to mobile devices, ensuring easy access to all sections of the site.
+Main Banner: Features an eye-catching image of a motorboat riding the waves of the ocean, setting the tone for the adventurous theme of the site.
+
+- `Speedy` - includes:
+
+Yacht Display: Showcases images of various yachts, highlighting different options available for rent.
+Animated Card: An engaging, animated card providing detailed information and options for renting a vessel, making the user experience interactive and dynamic.
+
+- `Safety` - includes:
+
+Importance of Safety: This section emphasizes the critical importance of safety while boating, ensuring users understand the measures taken to protect them during their maritime adventures.
+
+- `Gallery` - includes:
+
+Photo Slider: A gallery presented in a slider format, displaying beautiful and captivating images of boats, yachts, and ocean scenes to inspire and attract potential customers.
+
+- `Contact` - includes:
+
+Contact Form: A simple and effective form for users to get in touch, ask questions, or request further information about the services offered.
+
+## Features
+
+Implemented responsiveness and mobile menu for better UI.
 
 ## Getting Started
 
-First, run the development server:
+To run the application locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/Inna-Mykytiuk/boat.git`
+2. Install dependencies: `npm install`
+3. Run the app: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser (Note: the port may be changed if 3000 port is occupied by another website).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Next.js:
+   Our website is powered by Next.js, providing a seamless and efficient user experience. It ensures fast loading times and smooth navigation.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Tailwind CSS:
+   Used for styling, offering a highly customizable and utility-first approach to CSS that ensures responsive and attractive design.
 
-## Learn More
+3. React-Scroll:
+   Enhancing the scrolling experience on our website, React-Scroll adds a touch of sophistication, allowing users to glide smoothly between sections.
 
-To learn more about Next.js, take a look at the following resources:
+4. TypeScript:
+   Implemented for static type checking, enhancing code quality and reducing errors during development.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Framer Motion:
+   Our project incorporates Framer Motion to bring life to the user interface with stunning animations. Framer Motion is a React library that simplifies the creation of smooth and interactive animations, adding a layer of dynamism to various elements on our website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+6. Swiper:
+   Used for creating the responsive, touch-friendly photo slider in the Gallery section, providing a seamless viewing experience on all devices..
 
-## Deploy on Vercel
+## Summary
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This landing page effectively combines visual appeal with functional design to create an engaging user experience for individuals interested in boat trips and yacht rentals. By leveraging modern web development technologies, the site ensures high performance, responsiveness, and an interactive user interface. The strategic use of animations, smooth scrolling, and an intuitive navigation system further enhances the overall experience, making it easy for users to explore the services offered and get in touch for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![preview](https://github.com/Inna-Mykytiuk/...../blob/main/public/assets/images/......jpg)
