@@ -3,11 +3,10 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import Logo from "./Logo";
-import BurgerMenu from "./BurgerMenu"; // Імпорт нового компонента
+import BurgerMenu from "./BurgerMenu";
 import data from "@/data/hero.json";
 import { IoMdContact } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { IoMdClose } from "react-icons/io";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

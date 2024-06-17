@@ -1,11 +1,21 @@
 import React from "react";
 import "./Card.css";
 import Image from "next/image";
-import { FaCompressArrowsAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Card() {
   return (
-    <div className="text-center align-self-center">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.3 }}
+      variants={{
+        hidden: { opacity: 0, scale: 0.9 },
+        visible: { opacity: 1, scale: 1 },
+      }}
+      className="text-center align-self-center"
+    >
       <input
         className="pricing"
         type="checkbox"
@@ -107,6 +117,6 @@ export default function Card() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
