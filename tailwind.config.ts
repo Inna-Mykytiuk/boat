@@ -44,6 +44,15 @@ const config: Config = {
       content: {
         line: `url(/images/elements/roundedLine.png)`,
       },
+      keyframes: {
+        scale: {
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(1.5)" },
+        },
+      },
+      animation: {
+        scale: "scale 0.7s ease infinite alternate",
+      },
       fontFamily: {
         comforta: ["Comfortaa", "sans-serif"],
         contrail: ["Contrail One", "sans-serif"],

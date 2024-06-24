@@ -9,6 +9,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
+import { IoIosHeart } from "react-icons/io";
+
 export default function Footer() {
   return (
     <section
@@ -115,7 +117,12 @@ export default function Footer() {
         </div>
         <div className="flex flex-col sm:flex-row justify-between">
           <p className="text-white text-sm">© Boat.com. All Rights Reserved.</p>
-          <p className="text-white text-sm">Made by Tokio❤️</p>
+          {/* <p className="text-white text-sm">Made by Tokio❤️</p> */}
+          <p className="text-white text-sm flex items-center">
+            Made with
+            <IoIosHeart className="h-[20px] w-[20px] m-[5px] text-lightBlue animate-scale" />
+            by Tokio
+          </p>
         </div>
       </div>
     </section>

@@ -11,8 +11,14 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: ['assets.codepen.io'], // Додайте ваш хост тут
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'assets.codepen.io',
+      },
+    ],
   },
 };
 
 export default nextConfig;
+
