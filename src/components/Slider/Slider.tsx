@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import galleryData from "@/data/gallery.json";
 
 export default function Slider() {
   return (
@@ -34,56 +35,21 @@ export default function Slider() {
       modules={[Pagination]}
       className="mySwiper mt-[280px] sm:mt-[220px] md:mt-[140px] xl:mt-[30px]"
     >
-      <SwiperSlide className="w-full h-[200px] md:w-[200px] md:h-[400px] rounded-3xl overflow-hidden shadow-card">
-        <Image
-          src="/images/gallery/galleryImg1.jpg"
-          alt="boat"
-          width={200}
-          height={400}
-          loading="lazy"
-          className="w-full object-cover object-center "
-        />
-      </SwiperSlide>
-      <SwiperSlide className="w-[200px] h-[400px] rounded-3xl overflow-hidden shadow-card">
-        <Image
-          src="/images/gallery/galleryImg2.jpg"
-          alt="boat"
-          width={200}
-          height={400}
-          loading="lazy"
-          className="w-[200px] h-[400px] object-cover object-center "
-        />
-      </SwiperSlide>
-      <SwiperSlide className="w-[200px] h-[400px] rounded-3xl overflow-hidden shadow-card">
-        <Image
-          src="/images/gallery/galleryImg3.jpg"
-          alt="boat"
-          width={200}
-          height={400}
-          loading="lazy"
-          className="w-[200px] h-[400px] object-cover object-center "
-        />
-      </SwiperSlide>
-      <SwiperSlide className="w-[200px] h-[400px] rounded-3xl overflow-hidden shadow-card">
-        <Image
-          src="/images/gallery/galleryImg4.jpg"
-          alt="boat"
-          width={200}
-          height={400}
-          loading="lazy"
-          className="w-[200px] h-[400px] object-cover object-center "
-        />
-      </SwiperSlide>
-      <SwiperSlide className="w-[200px] h-[400px] rounded-3xl overflow-hidden shadow-card">
-        <Image
-          src="/images/gallery/galleryImg5.jpg"
-          alt="boat"
-          width={200}
-          height={400}
-          loading="lazy"
-          className="w-[200px] h-[400px] object-cover object-center "
-        />
-      </SwiperSlide>
+      {galleryData.map((image, index) => (
+        <SwiperSlide
+          key={index}
+          className="w-full h-[200px] md:w-[200px] md:h-[400px] rounded-3xl overflow-hidden shadow-card"
+        >
+          <Image
+            src={image.src}
+            alt={image.alt}
+            width={200}
+            height={400}
+            loading="lazy"
+            className="w-full object-cover object-center"
+          />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 }

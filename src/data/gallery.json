@@ -1,0 +1,22 @@
+[
+  {
+    "src": "/images/gallery/galleryImg1.jpg",
+    "alt": "boat1"
+  },
+  {
+    "src": "/images/gallery/galleryImg2.jpg",
+    "alt": "boat2"
+  },
+  {
+    "src": "/images/gallery/galleryImg3.jpg",
+    "alt": "boat3"
+  },
+  {
+    "src": "/images/gallery/galleryImg4.jpg",
+    "alt": "boat4"
+  },
+  {
+    "src": "/images/gallery/galleryImg5.jpg",
+    "alt": "boat5"
+  }
+]
