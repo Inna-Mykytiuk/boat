@@ -1,0 +1,50 @@
+{
+  "title": "Boat",
+  "subtitle": "Social networks",
+  "description": "Dive Into Excitement With Our Range Of Speed Boat Tours And Packages! Choose From Thrilling High-Speed Rides Along The Coastline, Leisurely Cruises To Scenic Landmarks, Or Customized Adventures Tailored To Your Preferences.",
+  "socialLinks": [
+    {
+      "href": "#",
+      "ariaLabel": "facebook",
+      "icon": "FaFacebookF",
+      "hoverColor": "group-hover:text-mainBlue"
+    },
+    {
+      "href": "#",
+      "ariaLabel": "Instagram",
+      "icon": "AiFillInstagram",
+      "hoverColor": "group-hover:text-pink-600"
+    },
+    {
+      "href": "https://www.linkedin.com/in/inna-mykytiuk/",
+      "ariaLabel": "LinkedIn",
+      "icon": "FaLinkedinIn",
+      "hoverColor": "group-hover:text-blue-500"
+    },
+    {
+      "href": "#",
+      "ariaLabel": "Twitter",
+      "icon": "FaTwitter",
+      "hoverColor": "group-hover:text-blue-400"
+    },
+    {
+      "href": "https://github.com/Inna-Mykytiuk",
+      "ariaLabel": "Github",
+      "icon": "FaGithubAlt",
+      "hoverColor": "group-hover:text-gray-500"
+    },
+    {
+      "href": "#",
+      "ariaLabel": "Telegram",
+      "icon": "FaTelegramPlane",
+      "hoverColor": "group-hover:text-blue-500"
+    }
+  ],
+  "contacts": "Contacts",
+  "location": "Kyiv Region, Ukraine",
+  "email": "innka-pinnka@ukr.net",
+  "phoneNumber": "+380 (93) 999-99-99",
+  "bottomText": "© Boat.com. All Rights Reserved.",
+  "bottomText1": "Made with",
+  "bottomText2": "by Tokio"
+}
