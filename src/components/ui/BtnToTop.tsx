@@ -52,10 +52,9 @@ export default function BtnToTop() {
   return (
     <div
       className={`fixed z-50 right-4 transition-opacity duration-250 cursor-pointer
-        ${
-          showTopBtn
-            ? "opacity-100 bottom-20"
-            : "opacity-0 pointer-events-none bottom-16"
+        ${showTopBtn
+          ? "opacity-100 bottom-20"
+          : "opacity-0 pointer-events-none bottom-16"
         }
         ${showTopBtn ? "w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" : ""}
         ${showTopBtn ? "rounded-full" : ""}
@@ -66,3 +65,5 @@ export default function BtnToTop() {
     </div>
   );
 }
+
+//test
