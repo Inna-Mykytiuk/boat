@@ -5,7 +5,7 @@
   "socialLinks": [
     {
       "href": "#",
-      "ariaLabel": "facebook",
+      "ariaLabel": "Facebook",
       "icon": "FaFacebookF",
       "hoverColor": "group-hover:text-mainBlue"
     },

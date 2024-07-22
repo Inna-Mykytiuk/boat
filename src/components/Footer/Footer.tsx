@@ -3,22 +3,10 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaGithubAlt,
-  FaTelegramPlane,
-} from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import data from "@/data/footer.json";
 
-type SocialLink = {
-  href: string;
-  ariaLabel: string;
-  icon: keyof typeof iconComponents;
-  hoverColor: string;
-};
+import data from "@/data/footer.json";
+import { SocialLink } from "../ui/SocialLinks";
+import SocialLinks from "../ui/SocialLinks";
 
 interface FooterData {
   title: string;
@@ -33,15 +21,6 @@ interface FooterData {
   bottomText1: string;
   bottomText2: string;
 }
-
-const iconComponents = {
-  FaFacebookF,
-  AiFillInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-  FaGithubAlt,
-  FaTelegramPlane,
-};
 
 export default function Footer() {
   const {
@@ -79,27 +58,7 @@ export default function Footer() {
               <h4 className="text-white text-center sm:text-start font-comforta text-base font-normal uppercase mb-[30px]">
                 {subtitle}
               </h4>
-              <ul className="text-white grid grid-cols-3 gap-4">
-                {socialLinks.map((link, index) => {
-                  const IconComponent = iconComponents[link.icon];
-                  return (
-                    <li
-                      key={index}
-                      className="group flex items-center justify-center cursor-pointer transition duration-300 ease-out w-full h-full"
-                    >
-                      <a
-                        href={link.href}
-                        aria-label={link.ariaLabel}
-                        className="flex items-center justify-center text-dark h-[35px] w-[35px] bg-white p-1 rounded-full"
-                      >
-                        <IconComponent
-                          className={`h-[25px] w-[25px] ${link.hoverColor} transition duration-300 ease-out`}
-                        />
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
+              <SocialLinks socialLinks={socialLinks} />
             </div>
             <div className="flex flex-col items-center sm:items-start">
               <h4 className="text-white font-comforta uppercase text-base font-normal mb-[30px]">
@@ -132,4 +91,3 @@ export default function Footer() {
     </section>
   );
 }
-
