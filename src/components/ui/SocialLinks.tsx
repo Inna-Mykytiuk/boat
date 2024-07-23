@@ -35,23 +35,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ socialLinks }) => {
         const IconComponent = iconComponents[link.icon];
 
         let baseColor = "text-dark";
-        let hoverColor = "group-hover:text-gray-500";
-
-        if (link.ariaLabel === "Facebook") {
-          hoverColor = "group-hover:text-mainBlue";
-        } else if (link.ariaLabel === "Instagram") {
-          hoverColor = "group-hover:text-pink-600";
-        } else if (link.ariaLabel === "LinkedIn") {
-          hoverColor = "group-hover:text-blue-500";
-        } else if (link.ariaLabel === "Twitter") {
-          hoverColor = "group-hover:text-blue-400";
-        } else if (link.ariaLabel === "Github") {
-          hoverColor = "group-hover:text-gray-500";
-        } else if (link.ariaLabel === "Telegram") {
-          hoverColor = "group-hover:text-blue-500";
-        } else {
-          hoverColor = "group-hover:text-gray-500";
-        }
+        let hoverColor = link.hoverColor;
 
         return (
           <li
